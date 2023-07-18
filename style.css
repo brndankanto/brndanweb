@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    word-wrap: initial;
+    max-width: 100%;
+}
+
+h1 {
+    margin-left: 0%;
+}
+
+.runningman {
+    position: absolute;
+    z-index: 100;
+    top: 0%;
+    right: 0%;
+    width: 40px;
+}
+
+.runningman img {
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.marquee {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    overflow-x: hidden;
+    color: white;
+}
+
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 40s linear infinite;
+}
+
+.trackreverse {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 40s linear reverse infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
