@@ -11,6 +11,8 @@ body{
 
 img {
     border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 hr {
