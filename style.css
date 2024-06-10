@@ -4,21 +4,26 @@
 body {
     padding: 0px;
     margin: 0px;
-    background-image: url('images/tumblr_n8o86uMpLD1qelyl4o1_500.gif');
+    background-image: url('images/東北大震災vhs.gif');
     color: whitesmoke;
     text-align: center;
-    font-size: 20px;
+    font-size: 19px;
 }
 
-body{
+h2 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+body {
     cursor: url('cursors/Wii Pointer.cur'), progress !important;
 }
 
-body a:hover{
+body a:hover {
     cursor: url('cursors/Wii Pointer Blue.cur'), progress !important;
 }
 
-.construction{
+.construction {
     font-family: "Yuji Syuku", serif;
     font-weight: 400;
     font-style: normal;
@@ -30,8 +35,8 @@ body a:hover{
     font-weight: 400;
     font-style: normal;
     font-size: 80px;
-  }
-  
+}
+
 
 .center {
     margin-left: auto;
