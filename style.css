@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&family=Yuji+Syuku&display=swap');
 
 body {
+    width: 100%;
     padding: 0px;
     margin: 0px;
     background-image: url('images/東北大震災vhs.gif');
